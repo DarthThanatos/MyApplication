@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.vobis.myapplication.trail.Trail">
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_settings_white_24dp"
+        app:showAsAction="always" >
+        <menu>
+            <item
+               android:id="@+id/menu_save"
+               android:title="Save"
+               android:icon="@drawable/ic_save_black_24dp" />
+            <item
+                android:id="@+id/menu_load"
+                android:title="Load"
+                android:icon="@drawable/ic_archive_black_24dp"/>
+            <item
+                android:id="@+id/menu_new"
+                android:title="New"
+                android:icon="@drawable/ic_replay_black_24dp"/>
+        </menu>
+
+
+    </item>
+
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom" />
+</menu>

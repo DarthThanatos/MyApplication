@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="firstNumber">Type first number</string>
+    <string name="secondNumber">Type second number</string>
+    <string name="addingButton">+</string>
+    <string name="subtrackingButton">-</string>
+    <string name="diviningButton">/</string>
+    <string name="multiplyingButton">*</string>
+    <string name="title_activity_display_message">MyMessage</string>
+    <string name="Result">Result</string>
+
+    <string-array name="header_titles">
+        <item>Action Movies</item>
+        <item>Romantic Movies</item>
+        <item>Horror Movies</item>
+    </string-array>
+
+    <string-array name="h1_items">
+        <item>The Black</item>
+        <item>Sparta</item>
+        <item>Honey Moon</item>
+    </string-array>
+
+    <string-array name="h2_items">
+        <item>Cytatel</item>
+        <item>Mass Effect</item>
+        <item>Cyrodil</item>
+    </string-array>
+
+    <string-array name="h3_items">
+        <item>Insidious</item>
+        <item>Shades of Grey</item>
+        <item>It Follows</item>
+        <item>Mario</item>
+    </string-array>
+
+    <string-array name="ME">
+        <item>ME I</item>
+        <item>ME II</item>
+        <item>ME III</item>
+    </string-array>
+    <string name="title_activity_trail">Trail</string>
+    <string name="title_activity_object_expand">ObjectExpand</string>
+    <string name="download">Download</string>
+    <string name="title_activity_bmi">BMI</string>
+    <string name="title_activity_bmi_result">BmiResult</string>
+    <string name="title_activity_alv">ALV</string>
+    <string name="title_activity_animation">Animation</string>
+</resources>

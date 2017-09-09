@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <EditText android:id="@+id/firstNumber"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/firstNumber"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/display"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Shoot"
+            android:textAllCaps="false"
+            android:onClick="play"/>
+        <Button
+            android:id="@+id/withoutView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Card Two"
+            android:textAllCaps="false"
+            android:onClick="displayWithoutView"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <EditText android:id="@+id/secondNumber"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_gravity="fill"
+            android:layout_height="wrap_content"
+            android:hint="@string/secondNumber"
+            android:inputType="number"/>
+        <Button
+            android:id="@+id/displayTrial"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Card Three"
+            android:textAllCaps="false"
+            android:onClick="displayBMI"/>
+        <Button
+            android:id="@+id/download"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/download"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+       <Button
+        android:id="@+id/addingButton"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/addingButton"
+        android:onClick="calculate"/>
+
+        <Button
+          android:id="@+id/diviningButton"
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="@string/diviningButton"
+          android:onClick="calculate"/>
+
+        <Button
+
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/subtrackingButton"
+          android:text="@string/subtrackingButton"
+          android:onClick="calculate"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/multipyingButton"
+            android:text="@string/multiplyingButton"
+            android:onClick="calculate"/>
+        <Button
+            android:id="@+id/change"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:onClick="changeSize"
+            android:textAllCaps="false"/>
+
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/Result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/Result" />
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageSmile"
+            android:src="@drawable/smile"
+            android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

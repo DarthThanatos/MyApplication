@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vobis.myapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".display.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.vobis.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".vincent.Vincent_ThreeelevellistActivity"
+            android:label="@string/title_activity_trail"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.vobis.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".trail.Trail"
+            android:label="@string/title_activity_trail"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.vobis.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".stackOverflowAdapter.ObjectExpand"
+            android:label="@string/title_activity_object_expand"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.vobis.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BMI.BMI"
+            android:label="@string/title_activity_bmi"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.vobis.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BMI.BmiResult"
+            android:label="@string/title_activity_bmi_result"
+            android:parentActivityName=".BMI.BMI" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.vobis.myapplication.BMI.BMI" />
+        </activity>
+        <activity
+            android:name=".trail.ALV"
+            android:configChanges=""
+            android:label="@string/title_activity_alv"
+            android:parentActivityName=".trail.Trail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.vobis.myapplication.trail.Trail" />
+        </activity>
+        <activity
+            android:name=".trail.Animation"
+            android:label="@string/title_activity_animation"
+            android:parentActivityName=".trail.Trail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.vobis.myapplication.trail.Trail" />
+        </activity>
+    </application>
+
+</manifest>
